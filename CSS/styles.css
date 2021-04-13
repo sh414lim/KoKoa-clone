@@ -4,6 +4,7 @@
 @import "./components/nav_bar.css";
 @import "./components/screen-header.css";
 @import "./components/status-bar.css";
+@import "./components/user-component.css";
 /* Screens */
 @import "./screens/login.css";
 @import "./screens/friends.css";
