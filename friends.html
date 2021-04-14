@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friend-to KoKoa Talk</title>
-    <link rel="stylesheet" href="./CSS/styles.css" />
+    <title>Friends - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -22,7 +21,6 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-
     <header class="screen-header">
       <h1 class="screen-header__title">Friends</h1>
       <div class="screen-header__icons">
@@ -31,21 +29,19 @@
         <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
-
-    <a id="friends-display-link"
-      ><i class="fas fa-info-circle"></i> Friends' Name Display
-      <i class="fas fa-chevron-right"></i
-    ></a>
-
-    <main class="friends__screen">
+    <a id="friends-display-link">
+      <i class="fas fa-info-circle"></i> Friends' Names Display
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+    <main class="friends-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
             src="KakaoTalk_20210413_130400186.jpg"
-            class="user-component__avatar user-compontnt__avatar--xl"
+            class="user-component__avatar user-component__avatar--xl"
           />
           <div class="user-component__text">
-            <h4 class="user-component__title">Sung Hwan</h4>
+            <h4 class="user-component__title">Nicolas</h4>
             <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
           </div>
         </div>
@@ -53,24 +49,24 @@
       </div>
       <div class="friends-screen__channel">
         <div class="friends-screen__channel-header">
-          <span>Channel</span><i class="fas fa-chevron-up"></i>
+          <span>Channel</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
         </div>
         <div class="user-component">
           <div class="user-component__column">
             <img
               src="KakaoTalk_20210413_130400186.jpg"
-              class="user-component__avatar user-compontnt__avatar--sm"
+              class="user-component__avatar user-component__avatar--sm"
             />
             <div class="user-component__text">
-              <h4
-                class="user-component__title user-component__title--not--bold"
-              >
+              <h4 class="user-component__title user-component__title--not-bold">
                 Channel
               </h4>
             </div>
           </div>
           <div class="user-component__column">
-            <span>2<i class="fas fa-chevron-right"></i></span>
+            <span>2</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
           </div>
         </div>
       </div>
@@ -78,28 +74,28 @@
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
-          <a class="nav__link" href="chats.html"></a>
-            <i class="fas fa-user fa-2x"></i
+          <a class="nav__link" href="friends.html"
+            ><i class="fas fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#"
-            ><span class="nav__notification">1</span
-            ><i class="fas fa-sms fa-2x"></i
-          ></a>
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html"
-            ><span class="nav__point">50</span
             ><i class="fas fa-ellipsis-h fa-2x"></i
           ></a>
         </li>
       </ul>
     </nav>
-
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
