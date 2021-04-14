@@ -3,6 +3,8 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   font-size: 20px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .settings__setting i {
@@ -10,4 +12,8 @@
   margin-right: 30px;
   font-size: 22px;
   align-items: center;
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.5;
 }
