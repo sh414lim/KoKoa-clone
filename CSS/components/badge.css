@@ -1,0 +1,29 @@
+.badge {
+  border-radius: 15px;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-weight: 600;
+  left: 20px;
+  bottom: 15px;
+  position: relative;
+  position: absolute;
+}
+.user-component__column__badge {
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  color: white;
+  font-weight: 600;
+  left: 20px;
+  position: relative;
+}
